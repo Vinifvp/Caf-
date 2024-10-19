@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafeteria especializada em bolos e salgados artesanais, com opções veganas e sem glúten.">
+    <title>Cafeteria - Bolos e Salgados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #6c757d;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #6c757d;
+        }
+        .cardapio, .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .cardapio-item, .galeria-item {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            width: 45%;
+            background-color: #fff;
+        }
+        .galeria img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #6c757d;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #fff;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cafeteria - Bolos e Salgados</h1>
+        <p>Delícias artesanais feitas com ingredientes frescos e de qualidade</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#contato">Contato & Localização</a>
+        <a href="#galeria">Galeria</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma cafeteria dedicada a oferecer o melhor em bolos e salgados artesanais. Todos os nossos produtos são feitos com ingredientes frescos e selecionados, garantindo sempre sabor e qualidade. Temos opções para todos os gostos, incluindo opções veganas e sem glúten!</p>
+    </section>
+
+    <section id="cardapio">
+        <h2>Nosso Cardápio</h2>
+        <div class="cardapio">
+            <div class="cardapio-item">
+                <h3>Especialidade da Casa - Bolo de Cenoura com Chocolate</h3>
+                <p>Um clássico irresistível, feito com cenouras frescas e uma cobertura de chocolate cremosa.</p>
+            </div>
+            <div class="cardapio-item">
+                <h3>Salgado Vegano - Coxinha de Jaca</h3>
+                <p>Uma delícia vegana com recheio de jaca temperada, crocante e saborosa.</p>
+            </div>
+            <div class="cardapio-item">
+                <h3>Empada Tradicional</h3>
+                <p>Empada com massa leve e recheio de frango ou palmito, desmanchando na boca.</p>
+            </div>
+            <div class="cardapio-item">
+                <h3>Opção Sem Glúten - Bolo de Laranja</h3>
+                <p>Feito com farinha de amêndoas, nosso bolo de laranja é leve e sem glúten.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria de Fotos</h2>
+        <div class="galeria">
+            <div class="galeria-item">
+                <img src="bolo-cenoura.jpg" alt="Bolo de Cenoura">
+            </div>
+            <div class="galeria-item">
+                <img src="coxinha-jaca.jpg" alt="Coxinha de Jaca">
+            </div>
+            <div class="galeria-item">
+                <img src="empada-tradicional.jpg" alt="Empada Tradicional">
+            </div>
+            <div class="galeria-item">
+                <img src="bolo-laranja.jpg" alt="Bolo de Laranja Sem Glúten">
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato & Localização</h2>
+        <p>Estamos localizados no centro da cidade, no seguinte endereço:</p>
+        <p><strong>Rua das Delícias, 123 - Centro</strong></p>
+        <p>Telefone: (11) 98765-4321</p>
+        <p>Email: contato@cafeteriabolosesalgados.com</p>
+        <p>Siga-nos nas redes sociais:</p>
+        <p>
+            <a href="https://facebook.com/cafeteriabolosesalgados">Facebook</a> | 
+            <a href="https://instagram.com/cafeteriabolosesalgados">Instagram</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cafeteria - Bolos e Salgados. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
